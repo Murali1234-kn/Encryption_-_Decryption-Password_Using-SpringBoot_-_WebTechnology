@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+</head>
+<body>
+<div>
+    <!-- Combined Form for Login and Registration -->
+    <form method="post">
+        <h2>User Authentication</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+<!-- Login Button -->
+        <button type="submit" formaction="http://localhost:8080/api/auth/login">Login</button>
+
+        <!-- Registration Button -->
+        <button type="submit" formaction="http://localhost:8080/api/auth/register">Register</button>
+    </form>
+</center>
+</div>
+</body>
+
+</html>
